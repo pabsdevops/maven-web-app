@@ -25,4 +25,9 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+	  <sonar.host.url>http://localhost:9000</sonar.host.url>
+	  <sonar.login>1db4049b992affcd34e09b38bb37db7230f95a5d</sonar.login>
+
+  </properties>
 </project>
