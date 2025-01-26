@@ -1,5 +1,4 @@
 node {
-    stages {
         stage('Clone GitHub') {
             steps {
                 git branch: 'develop', credentialsId: 'credential', url: 'https://github.com/pabsdevops/maven-web-app.git'
@@ -11,5 +10,4 @@ node {
                 sh 'mvn clean package'
             }
         }
-    }
 }
